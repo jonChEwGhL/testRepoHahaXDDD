@@ -1,0 +1,95 @@
+﻿namespace Domain.Models.Global
+{
+    public class STHost
+    {
+        public string szTID { get; set; } = "";
+        public string szMID { get; set; } = "";
+        public string szServerCertName { get; set; } = "";
+        public string szHostTemplate { get; set; } = "";
+        public string szPaymentTemplate { get; set; } = "";
+        public string szSecondEntryTemplate { get; set; } = "";
+        public string szMesgTemplate { get; set; } = "";
+        public string szURL { get; set; } = "";
+        public string szQueryURL { get; set; } = "";
+        public string szReversalURL { get; set; } = "";
+        public string szAcknowledgementURL { get; set; } = "";
+        public string szCancelURL { get; set; } = "";
+        public string szReturnURL { get; set; } = "";
+        public string szReturnURL2 { get; set; } = "";
+        public string szReturnIPAddresses { get; set; } = "";
+        public string szDBConnStr { get; set; } = "";
+        public string szOSPymtCode { get; set; } = "";
+        public string szSendKey { get; set; } = "";
+        public string szReturnKey { get; set; } = "";
+        public string szHashMethod { get; set; } = "";
+        public string szHashValue { get; set; } = "";
+        public string szSecretKey { get; set; } = "";
+        public string szInitVector { get; set; } = "";
+        public string szReserved { get; set; } = "";
+        public string szReserved2 { get; set; } = "";
+        public string szAcquirerID { get; set; } = "";
+        public string szPayeeCode { get; set; } = "";
+        public string szRunningNo { get; set; } = "";
+        public string szDesc { get; set; } = "";
+        public string szProtocol { get; set; } = "";
+        public string szChannelCfg1 { get; set; } = "";
+        public string szChannelCfg2 { get; set; } = "";
+        public string szFixedCurrency { get; set; } = "";
+        public string szLogoPath { get; set; } = "";
+        public string szCertId { get; set; } = "";
+
+        public int iChannelID { get; set; } = 0;
+        public int iHostID { get; set; } = 0;
+        public int iPortNumber { get; set; } = 0;
+        public int iQueryPortNumber { get; set; } = 0;
+        public int iReversalPortNumber { get; set; } = 0;
+        public int iAcknowledgementPortNumber { get; set; } = 0;
+        public int iCancelPortNumber { get; set; } = 0;
+        public long iTimeOut { get; set; } = 900;
+        public long iChannelTimeOut { get; set; } = 900;
+        public long iOTCRevTimeOut { get; set; } = 0;
+        public int iRequire2ndEntry { get; set; } = 0;
+        public int iNeedReplyAcknowledgement { get; set; } = 0;
+        public int iNeedRedirectOTP { get; set; } = 0;
+        public int iTxnStatusActionID { get; set; } = 0;
+        public int iHostReplyMethod { get; set; } = 0;
+        public int iGatewayTxnIDFormat { get; set; } = 0;
+        public int iQueryFlag { get; set; } = 1;
+        public int iIsActive { get; set; } = 1;
+        public int iAllowQuery { get; set; } = 0;
+        public int iAllowReversal { get; set; } = 0;
+        public int iNoOfRunningNo { get; set; } = 0;
+        public int iRunningNoUniquePerDay { get; set; } = 0;
+        public int iLogRes { get; set; } = 1;
+        public bool bIsHashOptional { get; set; } = false;
+        public int iOTCGenMethod { get; set; } = 0;
+        public string szSelectedCurrExpnt { get; set; } = "";
+        public int iMerchantHostTimeout { get; set; } = 0;
+        public string szPymtMethod { get; set; } = "";
+        public int iECIAlerts { get; set; } = 0;
+        public int iOnCVV { get; set; } = 0;
+        public int iAllowAuth { get; set; } = -1;
+        public int iHostMPI { get; set; } = 0;
+        public int iHostSupport3DS { get; set; } = 0;
+        public int iRefundType { get; set; } = 0;
+        public string szTerminalMID { get; set; } = "";
+        public int iTokenization { get; set; } = 0;
+        public int iHostSvcType { get; set; } = 2;
+        public string szClientID { get; set; } = "";
+        public string szAccessKey { get; set; } = "";
+        public string szEncryptionKey { get; set; } = "";
+        public string szSecurityKey { get; set; } = "";
+        public string szAuthenticatePayerURL { get; set; } = "";
+        public string szInitAuthenticationURL { get; set; } = "";
+        public string szAPIReqURL { get; set; } = "";
+        public int iAuthDurationHour { get; set; } = 0;
+        public int iCaptureType { get; set; } = 0;
+        public int iReversalTimeout { get; set; } = 0;
+        public string szWebAPIKey { get; set; } = "";
+        public string szHostMerchantPassword { get; set; } = "";
+        public int szHostTokenization { get; set; } = 0;
+        public string szHostCode { get; set; } = "";
+        public string szHostQueryTokenURL { get; set; } = "";
+    }
+
+}
